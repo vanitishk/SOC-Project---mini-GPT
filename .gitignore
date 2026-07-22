@@ -1,0 +1,10 @@
+
+data/raw
+outputs/checkpoints/*.pt
+outputs/plots/*.png
+
+# Keep the tokenizer though — it's tiny and useful
+!outputs/checkpoints/tokenizer.json
+
+__pycache__/
+*.pyc
